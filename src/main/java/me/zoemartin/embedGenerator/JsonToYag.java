@@ -156,7 +156,8 @@ public class JsonToYag {
 
         if (!fields.isEmpty()) {
             output.append("\t").append("\"fields\" (cslice\n");
-            fields.forEach(field -> output.append("\t").append("\t").append(convertMap(field)));
+            output.append(fields.stream().map(m -> String.format("\t\t%s",
+                convertMap(m))).collect(Collectors.joining("\n")));
             output.append("\t").append(")\n");
         }
 
