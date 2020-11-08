@@ -1,6 +1,6 @@
 # YAGPDB.xyz Embed Generator
 
-This script allows the easy creation of custom embeds for the use in YAGPDB.xys custom commands from a discord embed json created with
+This script allows the easy creation of custom embeds for the use in [YAGPDB.xyz's](https://yagpdb.xyz/) custom commands from a discord embed json created with
 [an Embed Builder like this](https://embedbuilder.nadekobot.me/) or my personal favourite, the one [in the CarlBot Dashboard.](https://carl.gg/)
 
 ## Use
@@ -15,7 +15,7 @@ $ ./gradlew run
 ```console
 $ git clone https://github.com/zoemartin01/YAGPDB-Embed-Generator.git
 $ cd YAGPDB-Embed-Generator
-$ java -jar build/libs/YAGPDB\ Embed\ Generator-*.jar
+$ java -jar build/libs/YAGPDB-Embed-Generator-*.jar
 ```
 
 # Usage
